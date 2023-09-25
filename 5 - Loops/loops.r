@@ -10,3 +10,8 @@ while (var2 < 10) {
   print(var2)
   var2 <- var2 + 1
 }
+
+# Carregue o conjunto de dados ToothGrowth (já incluído no R)
+data(ToothGrowth)
+
+glimpse(ToothGrowth)
