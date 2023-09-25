@@ -7,3 +7,10 @@ my_function <- function() {
 
 # Chamando a função
 my_function()
+
+# Função com argumentos
+my_function2 <- function(fname) {
+  print(fname)
+}
+
+my_function2("Pedro")
